@@ -1,0 +1,33 @@
+Expression? 52 =
+52
+
+Expression? 3*(32 - 22e-1) =
+89.4
+
+Expression?  100/(5.5*(10 + 0.00314E+3)) =
+1.3837
+
+Expression? 23%2 =
+***** Unexpected %
+
+Expression? 100/(5.5*(10 + 0.00314E+3) =
+***** Missing )
+
+Expression? (((((34))))) =
+34
+
+Expression? (32))+2 =
+***** Unexpected )
+
+Expression? 34 / (2-2) =
+***** Division by zero
+
+Expression? 5+((5+5)*5) =
+55
+
+Expression? 5*((((5+5)*5)+5)+5) =
+300
+
+Expression? .
+
+Done!
